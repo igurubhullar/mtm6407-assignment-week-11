@@ -47,21 +47,21 @@ export default function About() {
               priority
             />
           </div>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-400 mb-4">
             Founded in 2018, Travel Explorer is dedicated to helping travelers
             discover the world's most amazing destinations with confidence and
             ease. We believe that travel is one of life's greatest privileges
             and learning experiences, and we're passionate about making it
             accessible to everyone.
           </p>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-400 mb-4">
             Our team consists of experienced travelers, photographers, and
             regional specialists who have collectively visited over 100
             countries. We combine our firsthand experiences, extensive research,
             and local connections to bring you authentic travel information you
             can trust.
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-400">
             Whether you're planning your first international trip or you're a
             seasoned globetrotter, our goal is to provide you with the
             inspiration, practical advice, and resources you need to create
@@ -72,10 +72,10 @@ export default function About() {
         <section className="mb-16">
           <h2 className="text-2xl font-bold mb-8 text-primary">Our Mission</h2>
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <p className="text-gray-600 mb-4">
+            <p className="text-gray-700 mb-4">
               At Travel Explorer, our mission is threefold:
             </p>
-            <ul className="list-disc pl-5 space-y-4 text-gray-600 mb-4">
+            <ul className="list-disc pl-5 space-y-4 text-gray-700 mb-4">
               <li>
                 <span className="font-semibold">Inspire Exploration:</span> To
                 showcase the world's diverse cultures, landscapes, and
@@ -123,8 +123,12 @@ export default function About() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1">{member.name}</h3>
-                  <p className="text-primary font-medium mb-3">{member.role}</p>
+                  <h3 className="text-xl text-primary-foreground font-bold mb-1">
+                    {member.name}
+                  </h3>
+                  <p className="text-primary-foreground font-medium mb-3">
+                    {member.role}
+                  </p>
                   <p className="text-gray-600">{member.bio}</p>
                 </div>
               </div>
@@ -136,7 +140,9 @@ export default function About() {
           <h2 className="text-2xl font-bold mb-8 text-primary">Our Values</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Authenticity</h3>
+              <h3 className="text-xl text-primary-foreground font-bold mb-3">
+                Authenticity
+              </h3>
               <p className="text-gray-600">
                 We value genuine experiences and strive to provide honest,
                 realistic information about destinations. We believe in
@@ -145,7 +151,9 @@ export default function About() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Inclusivity</h3>
+              <h3 className="text-xl text-primary-foreground font-bold mb-3">
+                Inclusivity
+              </h3>
               <p className="text-gray-600">
                 Travel is for everyone. We aim to create content that caters to
                 diverse interests, budgets, and abilities, recognizing that each
@@ -153,7 +161,9 @@ export default function About() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Sustainability</h3>
+              <h3 className="text-xl text-primary-foreground font-bold mb-3">
+                Sustainability
+              </h3>
               <p className="text-gray-600">
                 We promote travel practices that minimize environmental impact
                 and support local communities. We believe that responsible
@@ -162,7 +172,9 @@ export default function About() {
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-3">Continuous Learning</h3>
+              <h3 className="text-xl text-primary-foreground font-bold mb-3">
+                Continuous Learning
+              </h3>
               <p className="text-gray-600">
                 The world is constantly changing, and so are we. We're committed
                 to ongoing research, education, and first-hand exploration to

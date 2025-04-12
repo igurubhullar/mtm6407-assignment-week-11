@@ -88,33 +88,11 @@ export default function Gallery() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-center">Travel Gallery</h1>
-      <p className="text-gray-600 mb-8 text-center max-w-3xl mx-auto">
+      <p className="text-gray-400 mb-8 text-center max-w-3xl mx-auto">
         Explore our collection of stunning travel photography from around the
         world. These images capture the beauty and diversity of our planet's
         landscapes, cultures, and architecture.
       </p>
-
-      {/* Filter badges */}
-      <div className="flex flex-wrap justify-center gap-2 mb-8">
-        <button className="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium">
-          All
-        </button>
-        <button className="bg-gray-200 hover:bg-gray-300 transition-colors px-4 py-2 rounded-full text-sm font-medium">
-          Europe
-        </button>
-        <button className="bg-gray-200 hover:bg-gray-300 transition-colors px-4 py-2 rounded-full text-sm font-medium">
-          Asia
-        </button>
-        <button className="bg-gray-200 hover:bg-gray-300 transition-colors px-4 py-2 rounded-full text-sm font-medium">
-          Americas
-        </button>
-        <button className="bg-gray-200 hover:bg-gray-300 transition-colors px-4 py-2 rounded-full text-sm font-medium">
-          Africa
-        </button>
-        <button className="bg-gray-200 hover:bg-gray-300 transition-colors px-4 py-2 rounded-full text-sm font-medium">
-          Oceania
-        </button>
-      </div>
 
       {/* Gallery grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -136,7 +114,7 @@ export default function Gallery() {
             <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
               <h3 className="text-xl font-bold mb-1">{item.location}</h3>
               <p className="text-sm text-gray-200">{item.description}</p>
-              <span className="inline-block mt-2 text-xs bg-primary/80 px-2 py-1 rounded-full">
+              <span className="inline-block mt-2 text-xs bg-primary text-primary-foreground px-2 py-1 rounded-full">
                 {item.category}
               </span>
             </div>
@@ -146,12 +124,12 @@ export default function Gallery() {
 
       {/* Call to action */}
       <div className="mt-12 text-center">
-        <p className="text-gray-600 mb-6">
+        <p className="text-gray-400 mb-6">
           Inspired by these images? Start planning your next adventure today!
         </p>
         <a
           href="/destinations"
-          className="inline-block bg-primary hover:bg-blue-600 transition-colors text-white font-bold py-3 px-8 rounded-full"
+          className="inline-block bg-primary-foreground hover:bg-primary-foreground transition-colors text-white font-bold py-3 px-8 rounded-full"
         >
           Explore Destinations
         </a>

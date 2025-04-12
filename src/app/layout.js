@@ -19,11 +19,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="bg-primary text-white shadow-md">
+        <header className="bg-zinc-950 text-white shadow-md">
           <nav className="container mx-auto px-4 py-4 flex flex-col sm:flex-row sm:justify-between sm:items-center">
             <div className="flex justify-between items-center mb-4 sm:mb-0">
               <Link href="/" className="text-2xl font-bold">

@@ -18,7 +18,6 @@ function DestinationCard({ image, title, description }) {
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center justify-center">
         <div className="absolute inset-0 z-0">
           <Image
@@ -39,7 +38,7 @@ export default function Home() {
           </p>
           <Link
             href="/destinations"
-            className="bg-primary hover:bg-blue-600 transition-colors text-white font-bold py-3 px-8 rounded-full text-lg"
+            className="bg-secondary hover:bg-blue-600 transition-colors text-white font-bold py-3 px-8 rounded-full text-lg"
           >
             Explore Destinations
           </Link>

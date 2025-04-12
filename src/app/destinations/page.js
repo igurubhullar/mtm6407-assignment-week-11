@@ -10,7 +10,7 @@ export default function Destinations() {
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6">Popular Destinations</h1>
-      <p className="text-gray-600 mb-8">
+      <p className="text-gray-400 mb-8">
         Explore our carefully curated selection of the world's most remarkable
         destinations. From bustling cities to tranquil beaches, we've got
         something for every type of traveler.
@@ -104,7 +104,9 @@ export default function Destinations() {
                 </div>
               </div>
               <div className="md:w-2/3 p-6">
-                <h3 className="text-xl font-bold mb-2">Kyoto, Japan</h3>
+                <h3 className="text-xl text-primary-foreground font-bold mb-2">
+                  Kyoto, Japan
+                </h3>
                 <p className="text-gray-600 mb-4">
                   Japan's cultural capital, Kyoto is home to over 1,600 Buddhist
                   temples, 400 Shinto shrines, magnificent palaces, traditional
@@ -112,7 +114,7 @@ export default function Destinations() {
                   blossom season (late March to early April) or autumn foliage
                   (November) for breathtaking views.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 text-secondary">
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">
                     Cultural
                   </span>
@@ -125,7 +127,7 @@ export default function Destinations() {
                 </div>
                 <Link
                   href="/destinations/asia"
-                  className="text-primary font-semibold hover:underline"
+                  className="text-primary-foreground font-semibold hover:underline"
                 >
                   Explore more destinations in Asia
                 </Link>
@@ -146,7 +148,9 @@ export default function Destinations() {
                 </div>
               </div>
               <div className="md:w-2/3 p-6">
-                <h3 className="text-xl font-bold mb-2">Lisbon, Portugal</h3>
+                <h3 className="text-xl text-primary-foreground font-bold mb-2">
+                  Lisbon, Portugal
+                </h3>
                 <p className="text-gray-600 mb-4">
                   Perched on seven hills overlooking the Tagus River, Lisbon
                   captivates with its pastel-colored buildings, narrow
@@ -154,7 +158,7 @@ export default function Destinations() {
                   climate, delicious cuisine, and vibrant cultural scene,
                   Portugal's capital offers an affordable European experience.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
+                <div className="flex flex-wrap gap-2 mb-4 text-secondary">
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-sm">
                     Food
                   </span>
@@ -167,7 +171,7 @@ export default function Destinations() {
                 </div>
                 <Link
                   href="/destinations/europe"
-                  className="text-primary font-semibold hover:underline"
+                  className="text-primary-foreground font-semibold hover:underline"
                 >
                   Explore more destinations in Europe
                 </Link>
@@ -178,25 +182,36 @@ export default function Destinations() {
       </div>
 
       <div className="bg-gray-100 p-6 rounded-lg">
-        <h2 className="text-2xl font-bold mb-4">Travel Planning Resources</h2>
-        <p className="mb-4">
+        <h2 className="text-2xl font-bold mb-4 text-primary-foreground">
+          Travel Planning Resources
+        </h2>
+        <p className="mb-4 text-secondary">
           Ready to plan your next adventure? Check out these helpful resources:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-700">
+        <ul className="list-disc list-inside space-y-2 text-secondary">
           <li>
-            <Link href="/tips/budget" className="text-primary hover:underline">
+            <Link
+              href="/tips/budget"
+              className="text-primary-foreground hover:underline"
+            >
               Budget Travel Guide
             </Link>{" "}
             - Learn how to make the most of your travel budget
           </li>
           <li>
-            <Link href="/tips" className="text-primary hover:underline">
+            <Link
+              href="/tips"
+              className="text-primary-foreground hover:underline"
+            >
               Packing Tips
             </Link>{" "}
             - Essential items for any journey
           </li>
           <li>
-            <Link href="/gallery" className="text-primary hover:underline">
+            <Link
+              href="/gallery"
+              className="text-primary-foreground hover:underline"
+            >
               Travel Gallery
             </Link>{" "}
             - Get inspired by stunning photographs

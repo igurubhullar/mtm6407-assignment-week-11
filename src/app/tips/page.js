@@ -11,7 +11,7 @@ export default function TravelTips() {
     <div className="container mx-auto px-4 py-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-6">Essential Travel Tips</h1>
-        <p className="text-gray-600 mb-8">
+        <p className="text-gray-400 mb-8">
           Our travel experts have compiled these essential tips to help you
           travel smarter, safer, and more enjoyably. Whether you're a seasoned
           traveler or planning your first trip, you'll find valuable advice
@@ -36,7 +36,7 @@ export default function TravelTips() {
                 </div>
               </div>
               <div className="md:w-2/3 p-6">
-                <h3 className="text-xl font-bold mb-4">
+                <h3 className="text-xl text-primary-foreground font-bold mb-4">
                   The Art of Efficient Packing
                 </h3>
                 <p className="text-gray-600 mb-4">
@@ -73,7 +73,7 @@ export default function TravelTips() {
           </div>
 
           <div className="bg-gray-100 p-6 rounded-lg">
-            <h3 className="text-xl font-bold mb-4">
+            <h3 className="text-xl text-primary-foreground font-bold mb-4">
               Essential Travel Checklist
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -109,7 +109,7 @@ export default function TravelTips() {
           </h2>
 
           <div className="bg-white rounded-lg shadow-md p-6 mb-6">
-            <h3 className="text-xl font-bold mb-4">
+            <h3 className="text-xl text-primary-foreground font-bold mb-4">
               Staying Safe While Traveling
             </h3>
             <p className="text-gray-600 mb-4">
@@ -136,7 +136,7 @@ export default function TravelTips() {
           </div>
 
           <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-bold mb-4">
+            <h3 className="text-xl text-primary-foreground font-bold mb-4">
               Staying Healthy During Travel
             </h3>
             <p className="text-gray-600 mb-4">
@@ -179,7 +179,7 @@ export default function TravelTips() {
               href="/tips/budget"
               className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
             >
-              <h3 className="text-xl font-bold mb-2">
+              <h3 className="text-xl text-primary-foreground font-bold mb-2">
                 Budget Travel Strategies
               </h3>
               <p className="text-gray-600">
@@ -196,7 +196,9 @@ export default function TravelTips() {
               href="/tips/solo"
               className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow"
             >
-              <h3 className="text-xl font-bold mb-2">Solo Travel Guide</h3>
+              <h3 className="text-xl text-primary-foreground font-bold mb-2">
+                Solo Travel Guide
+              </h3>
               <p className="text-gray-600">
                 Discover the joys and challenges of traveling alone, with
                 practical advice for staying safe, meeting people, and making
